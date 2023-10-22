@@ -1,19 +1,10 @@
 {
   "compilerOptions": {
-    /* Base Options: */
+    "target": "ES2016",
+    "module": "CommonJS",
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "target": "es2022",
-    "verbatimModuleSyntax": true,
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    /* Strictness */
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    /* If NOT transpiling with TypeScript: */
-    "moduleResolution": "Bundler",
-    "module": "ESNext",
     "noEmit": true
   }
 }
